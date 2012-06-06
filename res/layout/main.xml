@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/materia"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:textColor="@android:color/white" />
+    
+    <LinearLayout 
+        android:layout_width="300dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="left"
+            android:text="@string/canti_datos"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColor="@android:color/white" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="left"
+            android:text="@string/ingr_datos"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColor="@android:color/white" />
+
+        <ToggleButton
+            android:id="@+id/toggleManual"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textOn="Manual"
+            android:textOff="Manual"
+            android:paddingTop="1dp"
+            android:textColor="@android:color/white" />
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:weightSum="2" >
+            
+            <TextView
+                android:layout_weight="1"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginLeft="60dp"
+            	android:gravity="left"
+            	android:text="@string/valor_m"
+            	android:textSize="18dp"
+            	android:textStyle="bold"
+            	android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/et_M"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" 
+                android:maxLength="2"
+                android:layout_marginLeft="10dp"
+                android:gravity="center">
+                
+            </EditText>
+
+        </TableRow>
+        
+        <Button
+            android:id="@+id/btnContinuar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="@string/btn_conf_activity" />
+        
+    </LinearLayout>
+
+</LinearLayout>

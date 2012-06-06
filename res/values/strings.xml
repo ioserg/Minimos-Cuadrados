@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mínimos Cuadrados</string>
+    <string name="name">Mínimos Cuadrados</string>
+    <string name="materia">Análisis Numérico</string>
+    <string name="canti_datos">Cantidad de datos:</string>
+    <string name="ingr_datos">Ingreso de datos:</string>
+    <string name="btn_conf_activity">Continuar</string>
+    <string name="valor_x">x</string>
+    <string name="valor_fx">f(x)</string>
+    <string name="iteracion">i</string>
+    <string name="calcular">¡Calcular!</string>
+    <string name="resultados">Resultados:</string>
+    <string name="presicion">Precisión</string>
+    <string name="sumatorias">Sumatorias:</string>
+    <string name="mas_result">Más resultados</string>
+    <string name="valor_m">Valor de m:</string>
+    <string name="manual">Manual</string>
+    <string name="regresar">Regresar</string>
+    <string name="principal">Principal</string>
+    <string name="matriz_res">Resultados de la matriz:</string>
+
+</resources>
